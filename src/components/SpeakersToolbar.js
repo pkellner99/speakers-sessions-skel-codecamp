@@ -58,6 +58,24 @@ function SpeakersToolbar() {
                 <div className="col-sm">
                     <fieldset>
                         <p>
+                            <label>Theme&nbsp;&nbsp;</label>
+                            <select
+                                id="theme"
+                                name="theme"
+                                value={'all'}
+                                onChange={(e) => {}}
+                            >
+
+                                <option value="2017">Light Theme</option>
+                                <option value="2018">Dark Theme</option>
+
+                            </select>
+                        </p>
+                    </fieldset>
+                </div>
+                <div className="col-sm">
+                    <fieldset>
+                        <p>
                             <label>Sort&nbsp;&nbsp;</label>
                             <select
                                 id="sortby"
