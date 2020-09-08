@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "next",
-    "build": "next build",
-    "start": "next start"
+    "build": "next build && next export",
+    "start": "next start",
+    "x": "next build && next export",
+    "xx": "next export"
   },
   "dependencies": {
     "bootstrap": "^4.5.2",
